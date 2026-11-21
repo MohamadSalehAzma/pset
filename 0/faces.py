@@ -1,9 +1,9 @@
 def convert(text:str):
     if '(:' in text:
-        text2=text.replace('(:','🙂')
+        text=text.replace('(:','🙂')
     if '):' in text:
-        text2=text2.replace('):','🙁')    
-    return text2
+        text=text.replace('):','🙁')    
+    return text
 
 
 
