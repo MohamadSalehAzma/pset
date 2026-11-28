@@ -7,7 +7,7 @@ def main():
 
 
 def dollars_to_float(d: str):
-    return float(d.strip("$")[0:-1])  # توجه: در نسخه استاندارد این تمرین معمولاً d.strip("$") استفاده می‌شود
+    return float(d.strip("$")[0:-1]) 
 
 
 def percent_to_float(p: str):
